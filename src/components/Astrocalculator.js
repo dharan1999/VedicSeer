@@ -6,6 +6,7 @@ import mars from '../Assets/Landing Page/Icons/mars (1).png';
 import magicball from '../Assets/Landing Page/Icons/magic-ball.png';
 import panchang from '../Assets/Landing Page/Icons/Filled outline panchang.png';
 import './css/Astrocalculator.css';
+import Manglicdosha from './Manglicdosha';
 
 
 function Astrocalculator() {
@@ -53,11 +54,13 @@ function Astrocalculator() {
 
                 <Col md={2} xs={6} sm={6} style={{width:'20%'}}>
                 <Card className="card1"  style={{height:400,width:200}}>
+                    {/* <a href="components/Manglicdosha.js"> */}
                     <Card.Body>
                     <Card.Img src={mars} style={{width:70,height:80,marginTop:20,marginLeft:45,marginBottom:10}}/>
                     <Card.Title style={{marginTop:5,textAlign:'center'}}>Manglic Dosha</Card.Title>
                     <Card.Text style={{marginTop:5,textAlign:'center',fontSize:15}}>View what is kalasarpa dosha,it's presence in your life and remedies</Card.Text>
                     </Card.Body>
+                    {/* </a> */}
                 </Card>
                 </Col>
 

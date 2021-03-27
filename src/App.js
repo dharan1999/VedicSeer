@@ -11,6 +11,8 @@ import Insights from './components/Insights';
 import Nakshatra from './components/Nakshatra';
 import Testimonials from './components/Testimonials';
 import Footer from './components/Footer';
+import Manglicdosha from './components/Manglicdosha';
+import Sadesati from './components/Sadesati';
 
 
 function App() {
@@ -27,6 +29,8 @@ function App() {
       <Nakshatra />
       <Testimonials />
       <Footer />
+      <Manglicdosha />
+      <Sadesati />
       
     </div>
   );
